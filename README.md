@@ -8,14 +8,22 @@ Install the dependencies and devDependencies and start the server on port 5000.
 
 ```sh
 $ yarn install
-& yarn start
+$ yarn start
 ```
 
 API Endpoints
 ```
 POST: '/'
 Usage:
-    {
-        'host': 'host_ip' eg. 127.0.0.1
-    }
+Request:
+         {
+             'host': IPv4 string  eg. 127.0.0.1
+         }
+Response:
+         {
+             'host': IPv4 string eg. 127.0.0.1
+             'alive': boolean
+             'latency': string (ms)
+         }  
+
 ```
