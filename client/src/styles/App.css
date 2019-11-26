@@ -1,0 +1,22 @@
+.main {
+    height: 100vh;
+    width: 100vw;
+    background-color: #1D1D25;
+}
+
+.main h1 {
+    background-color: #0F0E15;
+    color: #9CCEF1;
+    padding: 15px 20px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+#server-grid {
+    margin: 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: space-around;
+}

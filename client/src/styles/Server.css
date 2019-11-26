@@ -1,0 +1,27 @@
+.server {
+    color: #9CCEF1;
+    background-color: #292933;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.server h2, p {
+    margin: 0px;
+    padding: 5px;
+    color: white;
+}
+
+.server h2 {
+    color: inherit;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+#circle {
+    display: inline-block;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    background-color: red;
+}
