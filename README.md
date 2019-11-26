@@ -1,6 +1,6 @@
-# Deploying Wato Server Status Application
+# Wato Server Status Application
 
-### Installation
+### Deploy
 
 The monitoring application requires [Node.js](https://nodejs.org/) to run and [Yarn](https://yarnpkg.com/lang/en/). The following application was build with node v12+ and yarn 1.19.1
 
